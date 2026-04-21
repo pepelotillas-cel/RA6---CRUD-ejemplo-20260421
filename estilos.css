@@ -1,0 +1,90 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.card > div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"], 
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, 
+select:focus {
+    outline: none;
+    border-color: #0dcaf0; 
+}
+
+.card div div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.card div div input {
+    margin: 0;
+    cursor: pointer;
+}
+
+#botonGuardar {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.table-responsive {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.table-dark tr th {
+    background-color: #fce4ec; 
+    color: #444;
+    border-bottom: 2px solid #f8bbd0;
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-sm {
+    margin: 2px;
+}
